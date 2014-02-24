@@ -1,7 +1,9 @@
+** MintCion P2Pool ** 
+
 Requirements:
 -------------------------
 Generic:
-* Novacoin >=0.4.4.6
+* MintCoin
 * Python >=2.6
 * Twisted >=10.0.0
 * python-argparse (for Python =2.6)
