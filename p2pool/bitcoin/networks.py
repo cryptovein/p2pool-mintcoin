@@ -34,7 +34,7 @@ nets = dict(
 SUBSIDY_FUNC=lambda height: 900000*100000000,
         POW_FUNC=lambda data: pack.IntType(256).unpack(__import__('ltc_scrypt').getPoWHash(data)),
         BLOCK_PERIOD=30, # s
-        SYMBOL='MIN',
+        SYMBOL='MINT',
         CONF_FILE_FUNC=lambda: os.path.join(os.path.join(os.environ['APPDATA'], 'MintCoin')
 if platform.system() == 'Windows' else os.path.expanduser('~/Library/Application Support/MintCoin/')
 if platform.system() == 'Darwin' else os.path.expanduser('~/.MintCoin'), 'MintCoin.conf'),
